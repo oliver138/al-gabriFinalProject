@@ -9,13 +9,7 @@
   left: 0;
  filter: blur(4);-webkit-filter: blur(5px); 
 }
-/* .icon{
-    left: 3%;
-    margin-top:15px;
-    position: relative;
-    width: 140px;
 
-} */
 table{
     width: 80%;
     position: relative;
