@@ -1,0 +1,67 @@
+.bg{
+    min-height: 100%;
+  min-width: 1024px;
+  
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+ filter: blur(4);-webkit-filter: blur(10px); 
+}
+
+nav{ padding-left: 100px;
+    padding-bottom: 270px;
+     position: absolute;
+     right: 27%;
+     top: 5%;
+    }
+.button {
+
+    background-color:#95d5b2;
+    border-radius:12px;
+    border:4px solid #52b788;
+    display:inline-block;
+    
+    color:#ffffff;
+    font-size:20px;
+    font-weight:bold;
+    padding:10px 45px;
+    text-decoration:none;
+}
+
+.button:hover {
+    background:linear-gradient(to bottom, #99d98c 5%, #94d2bd 100%);
+    background-color:#408c99;
+    color: #1b4332;
+}
+.button:active {
+    position:relative;
+    color: #1b4332;
+}
+.intro p{font-size: 20px;}
+.intro{
+    font-weight: 300;
+    margin-top: 50px;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container{position: relative;font-family: sans-serif;}
+.backgrondRf{
+color: white;
+background-color: #a3c9a8;
+}
+.soccerRf{
+background-color: #84b59f;
+color: white;
+}
+.BasketballRf{
+    background-color: #69a297;
+    color: white;
+
+}
+.CricketRf{
+    background-color: #50808e;
+    color: white;
+}
+li{color: black;}

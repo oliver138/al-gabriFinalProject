@@ -1,0 +1,80 @@
+
+.bgSoccer, .bgBasketball, .bgcricket{
+    min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+ filter: blur(4);-webkit-filter: blur(10px); 
+}
+
+.soccerGallery{
+    margin:5px;
+    border: 1px solid black;
+    float: left;
+    width: 30%;
+}
+.soccerGallery:hover{
+    border: 1px solid #777;
+}
+.soccerGallery img{  
+    width: 100%;
+    height: 179px;
+}
+.info{
+    padding: 15px;
+  text-align: center;
+  background-color: #cfdbd5;
+}
+
+.container{
+    position: relative;
+    margin-top:150px ;
+    margin-left: 150px;
+    max-width: 1320px;
+    max-height: 1000%;
+    overflow: auto;
+    display: block;
+}
+.container2{
+    position: relative;
+    margin-top:100px ;
+    margin-left: 150px;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+iframe{
+    padding: 10px;
+}
+h2{font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 40px;
+    float: none;
+    padding-left: 45%;
+    color: white;
+    position: relative;
+}
+#soccerh2{color: black;}
+
+     @media screen and (max-width:1200px) {
+        .col-md-6{width: 40%;}
+        .container{margin: 0;padding: 0 0 0 10%;}
+        .container2{margin: 0; padding: 0 0 0 10%;}
+
+       
+      }
+      @media screen and (max-width:992px) {
+          .container{margin: 0;padding: 0 0 0 20%;}
+         .container2{margin: 0;padding: 0 0 0 20%;}
+        .col-md-6{width: 70%;}
+       }
+       @media screen and (max-width:600px) {
+         .col-sm-12{width: 100%;}
+         .container{margin: 0;padding: 0;}
+         .container2{margin: 0;padding: 0;}
+         h2{padding-left:40%;font-size: 25px;}
+      }
+
+     

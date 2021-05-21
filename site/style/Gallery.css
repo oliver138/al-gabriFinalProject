@@ -1,0 +1,64 @@
+.bg{
+    min-height: 100%;
+  min-width: 1024px;
+  
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+ filter: blur(4);-webkit-filter: blur(5px); 
+}
+
+h1{ 
+    /* top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed; */
+    color: #b48608; 
+    font-family: 'Droid serif',serif; 
+    font-size: 45px; font-weight: 400;
+    font-style: italic; 
+    line-height: 44px; margin: 0 0 12px; 
+    text-align: center; 
+}
+p{
+    padding-top: 10px;
+    text-align: center;
+    color: #eee;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 25px; font-weight: 700;
+    line-height: 24px;
+    margin: 0 0 14px;
+}
+.galleryText{
+    padding: 150px;
+    border: solid #b48608 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+p:hover { color:gold; text-decoration: none; }
+@media screen and (max-width:1200px) {
+   h1{font-size: 40px;}
+   p{font-size: 20px;}
+   .galleryText{top: 65%;padding: 100px ;size: 400px;}
+ }
+ @media screen and (max-width:992px) {
+     
+    h1{font-size: 30px;}
+    p{font-size: 15px;}
+    .galleryText{top: 68%; ;width: 200px;}
+
+  }
+  @media screen and (max-width:600px) {
+    h1{font-size: 25px;}
+    p{font-size: 15px;}
+
+
+ }
+
+        
+
+
